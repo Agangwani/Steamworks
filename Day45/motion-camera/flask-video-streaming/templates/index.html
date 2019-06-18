@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <title>Video Streaming Demonstration</title>
+  </head>
+  <body>
+    <h1>Video Streaming Demonstration</h1>
+    <img src="{{ url_for('video_feed') }}">
+    <a href="/servoButton"><input type = "button" value = "turn left onclick="servoButton(-45)"></a>
+    <a href="/servoButton"><input type = "button" value = "turn right" onclick="servoButton(45)"></a>
+  </body>
+</html>
